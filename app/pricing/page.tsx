@@ -38,7 +38,7 @@ const faqs = [
   {
     question: "Can I update it myself after?",
     answer:
-      "Yes! If you're comfortable with basic code editing, you can make changes directly in GitHub and they'll deploy automatically. If not, I offer ongoing update services at reasonable hourly rates.",
+      "Yes! You can use Claude Code (the same AI tool I build with) to make updates yourself - no coding knowledge needed. You can also edit directly in GitHub and changes deploy automatically. Or if you'd rather not touch it, I offer ongoing update services at reasonable hourly rates.",
   },
   {
     question: "Can you integrate my existing tools?",
