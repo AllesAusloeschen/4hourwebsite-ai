@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -75,16 +76,14 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="flex justify-center">
-              {/* Photo placeholder */}
-              <div className="w-72 h-80 rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 border border-border flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-20 h-20 rounded-full gradient-bg flex items-center justify-center text-white mx-auto mb-3">
-                    <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                    </svg>
-                  </div>
-                  <p className="text-sm text-muted-foreground">Photo coming soon</p>
-                </div>
+              <div className="w-72 h-80 rounded-2xl overflow-hidden border border-border">
+                <Image
+                  src="/mathias-headshot.png"
+                  alt="Mathias Dorr"
+                  width={288}
+                  height={320}
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
