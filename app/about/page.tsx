@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Meet Mathias Dorr — CX operations professional, not a coder. 10+ years in WordPress, now building modern sites with Claude Code and Vercel. The honest story behind 4HourWebsite.ai.",
+    "Meet Mathias Dorr  - CX operations professional, not a coder. 10+ years in WordPress, now building modern sites with Claude Code and Vercel. The honest story behind 4HourWebsite.ai.",
   openGraph: {
     title: "About | 4HourWebsite.ai",
     description:
@@ -30,7 +30,7 @@ const timeline = [
     period: "Now",
     title: "AI-Assisted Websites & Apps",
     description:
-      "Transitioned to modern development using Claude Code, GitHub, and Vercel. Building not just websites but full web applications — quiz funnels with email segmentation, nutrition tools with user dashboards, ecommerce with Stripe. Combined with a decade of marketing and CX expertise.",
+      "Transitioned to modern development using Claude Code, GitHub, and Vercel. Building not just websites but full web applications  - quiz funnels with email segmentation, nutrition tools with user dashboards, ecommerce with Stripe. Combined with a decade of marketing and CX expertise.",
   },
 ];
 
@@ -67,7 +67,7 @@ export default function AboutPage() {
                 <span className="gradient-text">That&apos;s the point.</span>
               </h1>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-                I&apos;m Mathias Dorr — a CX operations professional based in
+                I&apos;m Mathias Dorr  - a CX operations professional based in
                 Florida who understands funnels, conversion, and customer
                 journey design. I don&apos;t just build websites. I build
                 business tools that actually drive results. Every single
@@ -115,7 +115,7 @@ export default function AboutPage() {
               That&apos;s where my background matters. After 10+ years building
               WordPress sites with Thrive Themes and 5+ years in CX operations
               at companies like Every Man Jack and B-Stock Solutions, I
-              understand what makes websites <em>work</em>. Not just look good —
+              understand what makes websites <em>work</em>. Not just look good  -
               but actually capture leads, segment audiences, qualify prospects,
               and drive conversions.
             </p>
@@ -194,7 +194,7 @@ export default function AboutPage() {
               timeline. AI-assisted development makes it possible to deliver
               custom sites fast. My CX and marketing background makes sure
               they actually work. That&apos;s the combination. And it
-              doesn&apos;t stop at websites — I build full web applications
+              doesn&apos;t stop at websites  - I build full web applications
               too: tools with user accounts, databases, dashboards, and
               real business logic under the hood.
             </p>

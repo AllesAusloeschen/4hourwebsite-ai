@@ -28,7 +28,7 @@ const faqs = [
   {
     question: "Who owns the code?",
     answer:
-      "You do — 100%. You get full access to the GitHub repository containing all your code. You can modify it, move it, or hand it to another developer at any time. No lock-in, ever.",
+      "You do  - 100%. You get full access to the GitHub repository containing all your code. You can modify it, move it, or hand it to another developer at any time. No lock-in, ever.",
   },
   {
     question: "Do I pay monthly fees?",

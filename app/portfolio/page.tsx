@@ -5,7 +5,7 @@ import SectionHeading from "../components/SectionHeading";
 export const metadata: Metadata = {
   title: "Portfolio",
   description:
-    "See real websites built by 4HourWebsite.ai. Case studies featuring fiorellard.com and Cheer Charms — custom sites with real conversion strategy.",
+    "See real websites built by 4HourWebsite.ai. Case studies featuring fiorellard.com and Cheer Charms  - custom sites with real conversion strategy.",
   openGraph: {
     title: "Portfolio | 4HourWebsite.ai",
     description:
@@ -19,7 +19,7 @@ const caseStudies = [
     category: "Authority Site / Healthcare Professional",
     url: "https://fiorellard.com",
     challenge:
-      "Fiorella DiCarlo, a Registered Dietitian, needed a professional authority site that would showcase her media features, explain her services, and create a doctor referral funnel — all while positioning her as a thought leader in GLP-1 nutrition and menopause wellness.",
+      "Fiorella DiCarlo, a Registered Dietitian, needed a professional authority site that would showcase her media features, explain her services, and create a doctor referral funnel  - all while positioning her as a thought leader in GLP-1 nutrition and menopause wellness.",
     solution:
       "Built a multi-page authority site with strategic page architecture: a media features section for credibility, dedicated service pages for each vertical, a doctor referral page (/refer) designed as a lead capture funnel, and integrated nutrition tools. Every page was designed with a specific conversion goal in mind.",
     highlights: [
@@ -36,7 +36,7 @@ const caseStudies = [
     category: "Ecommerce",
     url: "#",
     challenge:
-      "Cheer Charms needed an ecommerce site for kids' bracelets that was fun, colorful, and — most importantly — optimized for checkout conversion. The target audience is parents buying gifts, so the purchase flow needed to be fast and frictionless.",
+      "Cheer Charms needed an ecommerce site for kids' bracelets that was fun, colorful, and  - most importantly  - optimized for checkout conversion. The target audience is parents buying gifts, so the purchase flow needed to be fast and frictionless.",
     solution:
       "Built a clean ecommerce experience with Stripe checkout integration, product galleries with quick-add functionality, and a streamlined cart-to-checkout flow. The design balances a playful, kid-friendly aesthetic with serious conversion optimization.",
     highlights: [
@@ -63,7 +63,7 @@ export default function PortfolioPage() {
             </h1>
             <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
               Every project starts with strategy. These aren&apos;t just
-              pretty pages — they&apos;re business tools designed to convert.
+              pretty pages  - they&apos;re business tools designed to convert.
             </p>
           </div>
         </div>

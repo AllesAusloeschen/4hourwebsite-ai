@@ -6,7 +6,7 @@ const differentiators = [
   {
     title: "Funnel Architecture",
     description:
-      "Not just a homepage — a complete conversion path designed to turn visitors into customers.",
+      "Not just a homepage  - a complete conversion path designed to turn visitors into customers.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
@@ -36,7 +36,7 @@ const differentiators = [
   {
     title: "Customer Journey Mapping",
     description:
-      "Every page is designed with intent — because visitors should always know what to do next.",
+      "Every page is designed with intent  - because visitors should always know what to do next.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l5.447 2.724A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
@@ -46,7 +46,7 @@ const differentiators = [
   {
     title: "Real Business Integrations",
     description:
-      "Stripe, MailerLite, Supabase, Calendly, HubSpot — your site connects to the tools you actually use.",
+      "Stripe, MailerLite, Supabase, Calendly, HubSpot  - your site connects to the tools you actually use.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
@@ -131,7 +131,7 @@ export default function Home() {
               . I build business tools.&rdquo;
             </blockquote>
             <p className="mt-6 text-muted-foreground">
-              &mdash; Mathias Dorr, Founder
+               - Mathias Dorr, Founder
             </p>
           </div>
         </div>
@@ -143,7 +143,7 @@ export default function Home() {
           <SectionHeading
             eyebrow="Why this is different"
             title="Pretty is easy. Effective is rare."
-            description="Most AI website builders just make pretty pages. Every site I build is a business tool — designed to capture leads, segment audiences, and drive conversions."
+            description="Most AI website builders just make pretty pages. Every site I build is a business tool  - designed to capture leads, segment audiences, and drive conversions."
           />
           <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {differentiators.map((item, i) => (
