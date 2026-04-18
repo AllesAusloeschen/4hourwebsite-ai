@@ -21,12 +21,12 @@ const caseStudies = [
     challenge:
       "Fiorella DiCarlo, a Registered Dietitian, needed a professional authority site that would showcase her media features, explain her services, and create a doctor referral funnel  - all while positioning her as a thought leader in GLP-1 nutrition and menopause wellness.",
     solution:
-      "Built a multi-page authority site with strategic page architecture: a media features section for credibility, dedicated service pages for each vertical, a doctor referral page (/refer) designed as a lead capture funnel, and integrated nutrition tools. Every page was designed with a specific conversion goal in mind.",
+      "Built a multi-page authority site with strategic page architecture: a media features section for credibility, dedicated service pages for each vertical, a doctor referral page (/refer) designed as a lead capture funnel, and integrated interactive tools. Every page was designed with a specific conversion goal in mind.",
     highlights: [
       "Media features section for social proof",
       "Doctor referral funnel with lead capture",
       "Service-specific landing pages",
-      "Integrated nutrition tools",
+      "Integrated interactive tools",
       "SEO-optimized for healthcare keywords",
       "Mobile-responsive across all devices",
     ],

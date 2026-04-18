@@ -280,7 +280,7 @@ export default function Home() {
                 title: "fiorellard.com",
                 category: "Authority Site / Dietitian",
                 description:
-                  "Registered Dietitian authority site with media features, doctor referral page, and integrated nutrition tools.",
+                  "Registered Dietitian authority site with media features, doctor referral page, and integrated interactive tools.",
               },
               {
                 title: "Cheer Charms",

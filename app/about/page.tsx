@@ -16,21 +16,21 @@ export const metadata: Metadata = {
 const timeline = [
   {
     period: "10+ Years",
-    title: "WordPress, Showit & Web Hosting",
+    title: "WordPress, Showit & Web Design",
     description:
-      "Built dozens of websites using WordPress with Thrive Themes (Thrive Architect, Thrive Quiz Builder), Showit, and managed hosting and domains across Cloudflare, Bluehost, and GoDaddy. Learned that great websites aren't about code - they're about understanding what makes people take action.",
+      "Built dozens of websites using WordPress with Thrive Themes (Thrive Architect, Thrive Quiz Builder) and Showit. Experience with hosting and domain platforms including Cloudflare, Bluehost, and GoDaddy. Learned that great websites aren't about code - they're about understanding what makes people take action.",
   },
   {
-    period: "5+ Years",
-    title: "CX Operations",
+    period: "10 Years",
+    title: "CX Ops & Retention",
     description:
-      "Worked in CX operations at Every Man Jack (DTC) and B-Stock Solutions (SaaS). Deep experience in funnel architecture, quiz design, email segmentation using BUT/THEREFORE methodology, and conversion optimization.",
+      "Deep experience in funnel architecture, quiz design, email segmentation, conversion optimization, and customer journey mapping across DTC and SaaS brands.",
   },
   {
     period: "Now",
     title: "AI-Assisted Websites & Apps",
     description:
-      "Transitioned to modern development using Claude Code, GitHub, and Vercel. Building not just websites but full web applications  - quiz funnels with email segmentation, nutrition tools with user dashboards, ecommerce with Stripe. Combined with a decade of marketing and CX expertise.",
+      "Transitioned to modern development using Claude Code, GitHub, and Vercel. Building not just websites but full web applications - interactive tools with user dashboards, authentication systems, quiz funnels with email segmentation, and ecommerce with Stripe. Combined with a decade of marketing and CX expertise.",
   },
 ];
 
@@ -113,11 +113,10 @@ export default function AboutPage() {
             </p>
             <p>
               That&apos;s where my background matters. After 10+ years building
-              WordPress sites with Thrive Themes and 5+ years in CX operations
-              at companies like Every Man Jack and B-Stock Solutions, I
-              understand what makes websites <em>work</em>. Not just look good  -
-              but actually capture leads, segment audiences, qualify prospects,
-              and drive conversions.
+              WordPress sites with Thrive Themes and 10 years in CX operations
+              and retention across DTC and SaaS brands, I understand what makes
+              websites <em>work</em>. Not just look good - but actually capture
+              leads, segment audiences, qualify prospects, and drive conversions.
             </p>
             <p>
               The truth is, I genuinely love doing this work. Building
