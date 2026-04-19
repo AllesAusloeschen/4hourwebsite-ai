@@ -290,7 +290,7 @@ export default function Home() {
                   "Registered Dietitian authority site with media features, doctor referral page, and integrated interactive tools.",
               },
               {
-                title: "Cheer Charms",
+                title: "Cheery Charms",
                 category: "Ecommerce",
                 description:
                   "Kids bracelet ecommerce site with Stripe checkout integration and optimized conversion flow.",

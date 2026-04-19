@@ -5,7 +5,7 @@ import SectionHeading from "../components/SectionHeading";
 export const metadata: Metadata = {
   title: "Portfolio",
   description:
-    "See real websites built by 4HourWebsite.ai. Case studies featuring fiorellard.com and Cheer Charms  - custom sites with real conversion strategy.",
+    "See real websites built by 4HourWebsite.ai. Case studies featuring fiorellard.com and Cheery Charms  - custom sites with real conversion strategy.",
   openGraph: {
     title: "Portfolio | 4HourWebsite.ai",
     description:
@@ -32,11 +32,11 @@ const caseStudies = [
     ],
   },
   {
-    title: "Cheer Charms",
+    title: "Cheery Charms",
     category: "Ecommerce",
     url: "#",
     challenge:
-      "Cheer Charms needed an ecommerce site for kids' bracelets that was fun, colorful, and  - most importantly  - optimized for checkout conversion. The target audience is parents buying gifts, so the purchase flow needed to be fast and frictionless.",
+      "Cheery Charms needed an ecommerce site for kids' bracelets that was fun, colorful, and  - most importantly  - optimized for checkout conversion. The target audience is parents buying gifts, so the purchase flow needed to be fast and frictionless.",
     solution:
       "Built a clean ecommerce experience with Stripe checkout integration, product galleries with quick-add functionality, and a streamlined cart-to-checkout flow. The design balances a playful, kid-friendly aesthetic with serious conversion optimization.",
     highlights: [
