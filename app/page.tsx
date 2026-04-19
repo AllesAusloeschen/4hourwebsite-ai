@@ -89,10 +89,12 @@ export default function Home() {
               <span className="gradient-text">live in 4 hours</span>
             </h1>
             <p className="mt-6 text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              I build you a custom, modern website for $499-799. No templates.
-              No monthly fees. No wrestling with Wix or Squarespace. You own
-              everything. And unlike generic page builders, every site I build
-              is a business tool - designed to capture leads and drive results.
+              I build you a custom, modern website starting at $499. No
+              templates. No monthly fees. No wrestling with Wix or Squarespace.
+              You own everything. And unlike generic page builders, every site
+              I build is a business tool - designed to capture leads and drive
+              results. If you are wondering what that looks like - this site
+              was built by me.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -109,7 +111,7 @@ export default function Home() {
               </Link>
             </div>
             <p className="mt-6 text-sm text-muted-foreground">
-              Starting at $499 &middot; No monthly fees &middot; You own the code
+              Starting at $499 &middot; No monthly fees &middot; No subscriptions &middot; You own the code
             </p>
           </div>
         </div>
