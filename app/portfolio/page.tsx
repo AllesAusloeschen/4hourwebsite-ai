@@ -18,6 +18,7 @@ const caseStudies = [
     title: "fiorellard.com",
     category: "Authority Site / Healthcare Professional",
     url: "https://fiorellard.com",
+    screenshot: "/portfolio-fiorellard.png",
     challenge:
       "Fiorella DiCarlo, a Registered Dietitian, needed a professional authority site that would showcase her media features, explain her services, and create a doctor referral funnel  - all while positioning her as a thought leader in GLP-1 nutrition and menopause wellness.",
     solution:
@@ -35,6 +36,7 @@ const caseStudies = [
     title: "Cheery Charms",
     category: "Ecommerce",
     url: "#",
+    screenshot: "",
     challenge:
       "Cheery Charms needed an ecommerce site for kids' bracelets that was fun, colorful, and  - most importantly  - optimized for checkout conversion. The target audience is parents buying gifts, so the purchase flow needed to be fast and frictionless.",
     solution:
@@ -83,17 +85,12 @@ export default function PortfolioPage() {
               <div
                 className={`${index % 2 === 1 ? "lg:order-2" : ""}`}
               >
-                <div className="aspect-video rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 border border-border flex items-center justify-center overflow-hidden">
-                  <div className="text-center p-8">
-                    <div className="w-16 h-16 rounded-2xl gradient-bg flex items-center justify-center text-white mx-auto mb-4">
-                      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                      </svg>
-                    </div>
-                    <p className="text-sm text-muted-foreground">
-                      Screenshot coming soon
-                    </p>
-                  </div>
+                <div className="aspect-video rounded-2xl border border-border overflow-hidden">
+                  <img
+                    src={study.screenshot || ""}
+                    alt={`${study.title} screenshot`}
+                    className="w-full h-full object-cover object-top"
+                  />
                 </div>
               </div>
 

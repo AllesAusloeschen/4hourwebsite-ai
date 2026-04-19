@@ -286,12 +286,14 @@ export default function Home() {
               {
                 title: "fiorellard.com",
                 category: "Authority Site / Dietitian",
+                screenshot: "/portfolio-fiorellard.png",
                 description:
                   "Registered Dietitian authority site with media features, doctor referral page, and integrated interactive tools.",
               },
               {
                 title: "Cheery Charms",
                 category: "Ecommerce",
+                screenshot: "",
                 description:
                   "Kids bracelet ecommerce site with Stripe checkout integration and optimized conversion flow.",
               },
@@ -300,10 +302,12 @@ export default function Home() {
                 key={project.title}
                 className="group bg-white rounded-2xl border border-border overflow-hidden card-hover"
               >
-                <div className="aspect-video bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center">
-                  <span className="text-muted-foreground text-sm">
-                    Screenshot coming soon
-                  </span>
+                <div className="aspect-video bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center overflow-hidden">
+                  {project.screenshot ? (
+                    <img src={project.screenshot} alt={project.title} className="w-full h-full object-cover object-top" />
+                  ) : (
+                    <span className="text-muted-foreground text-sm">Screenshot coming soon</span>
+                  )}
                 </div>
                 <div className="p-6">
                   <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-2">
