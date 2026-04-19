@@ -89,9 +89,10 @@ export default function Home() {
               <span className="gradient-text">live in 4 hours</span>
             </h1>
             <p className="mt-6 text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Custom-built, modern, conversion-optimized websites using
-              AI-assisted development. Not templates. Not drag-and-drop.
-              Real sites that actually work for your business.
+              I build you a custom, modern website for $499-799. No templates.
+              No monthly fees. No wrestling with Wix or Squarespace. You own
+              everything. And unlike generic page builders, every site I build
+              is a business tool - designed to capture leads and drive results.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -172,7 +173,7 @@ export default function Home() {
           <SectionHeading
             eyebrow="Compare"
             title="How we stack up"
-            description="See how 4HourWebsite compares to traditional agencies and generic AI builders."
+            description="See how 4HourWebsite compares to traditional agencies and DIY page builders like Wix and Squarespace."
           />
           <div className="mt-16 overflow-x-auto">
             <table className="w-full min-w-[600px] text-left">
@@ -188,7 +189,7 @@ export default function Home() {
                     <span className="gradient-text font-bold">4 Hour Website</span>
                   </th>
                   <th className="py-4 pl-6 text-sm font-semibold text-muted-foreground">
-                    Generic AI Builders
+                    Wix / Squarespace
                   </th>
                 </tr>
               </thead>
@@ -196,11 +197,11 @@ export default function Home() {
                 {[
                   {
                     label: "Cost",
-                    values: ["$3,000 - $10,000", "$499 - $799+", "Varies"],
+                    values: ["$3,000 - $10,000", "$499 - $799+", "$16 - $46/mo forever"],
                   },
                   {
                     label: "Timeline",
-                    values: ["6 - 8 weeks", "Live in 4 hours", "Fast"],
+                    values: ["6 - 8 weeks", "Live in 4 hours", "You build it yourself"],
                   },
                   {
                     label: "Custom Design",
@@ -208,7 +209,7 @@ export default function Home() {
                   },
                   {
                     label: "Conversion Strategy",
-                    values: ["Sometimes", "Always", "No"],
+                    values: ["Sometimes", "Always", "None"],
                   },
                   {
                     label: "Code Ownership",
@@ -216,7 +217,11 @@ export default function Home() {
                   },
                   {
                     label: "Monthly Fees",
-                    values: ["Hosting costs", "Free on Vercel", "$12 - $40/mo"],
+                    values: ["Hosting costs", "Free forever", "$16 - $46/mo"],
+                  },
+                  {
+                    label: "Headache Level",
+                    values: ["Weeks of revisions", "Done for you", "You figure it out"],
                   },
                 ].map((row) => (
                   <tr key={row.label} className="border-b border-border/50">
