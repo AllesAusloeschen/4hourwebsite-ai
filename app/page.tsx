@@ -128,13 +128,14 @@ export default function Home() {
               The honest truth
             </div>
             <blockquote className="text-xl sm:text-2xl font-medium leading-relaxed text-foreground/90">
-              &ldquo;I&rsquo;m not a programmer. I took a 5-hour course and now I
-              build sites in 4 hours. Anyone could learn this. But you&rsquo;re
-              busy running your business, and most people who do learn this{" "}
+              &ldquo;I&rsquo;m not a programmer. I&rsquo;m a business person
+              who happens to build websites. I use AI tools to build faster
+              and cheaper than agencies - and my CX background means every
+              site{" "}
               <span className="gradient-text font-bold">
-                just make pretty pages
+                actually converts
               </span>
-              . I build business tools.&rdquo;
+              . Pretty is easy. Effective is rare.&rdquo;
             </blockquote>
             <p className="mt-6 text-muted-foreground">
                - Mathias Dorr, Founder

@@ -67,12 +67,11 @@ export default function AboutPage() {
                 <span className="gradient-text">That&apos;s the point.</span>
               </h1>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-                I&apos;m Mathias Dorr  - a CX operations professional based in
-                Florida who understands funnels, conversion, and customer
-                journey design. I don&apos;t just build websites. I build
-                business tools that actually drive results. Every single
-                project is built by me personally. No outsourcing, no
-                subcontractors, no handoffs.
+                I&apos;m Mathias Dorr - a business person who happens to build
+                websites. Based in Florida, I use AI tools to build faster and
+                cheaper than agencies - and my CX background means every site
+                actually converts. Every single project is built by me
+                personally. No outsourcing, no subcontractors, no handoffs.
               </p>
             </div>
             <div className="flex justify-center">
@@ -98,36 +97,34 @@ export default function AboutPage() {
           </h2>
           <div className="prose prose-lg text-muted-foreground space-y-5 leading-relaxed">
             <p>
-              Here&apos;s the truth that most people in this space won&apos;t tell
-              you: the technology to build modern websites is accessible to
-              anyone willing to learn. I took a 5-hour course and learned how to
-              use Claude Code, GitHub, and Vercel to build production-ready
-              websites.
+              The tools to build modern websites exist for anyone willing to
+              learn. But knowing <em>what</em> to build and <em>how</em> to
+              structure it so it actually works for your business - that is a
+              completely different skill.
             </p>
             <p>
-              But there&apos;s a catch. Knowing <em>how</em> to build a site and
-              knowing <em>what</em> to build are two very different things.
-              Most people who learn these tools make pretty pages. They look
-              great in a screenshot but don&apos;t actually do anything for the
-              business.
+              Most people who try end up with pretty pages that do not do
+              anything. They look great in a screenshot but do not capture
+              leads, do not convert visitors, and do not integrate with the
+              tools the business actually runs on.
             </p>
             <p>
-              That&apos;s where my background matters. After 10+ years building
-              WordPress sites with Thrive Themes and 10 years in CX operations
-              and retention across DTC and SaaS brands, I understand what makes
-              websites <em>work</em>. Not just look good - but actually capture
-              leads, segment audiences, qualify prospects, and drive conversions.
+              That is where my background matters. After 10+ years building
+              websites and 10 years in CX operations and retention across DTC
+              and ecommerce brands, I understand what makes websites{" "}
+              <em>work</em>. Not just look good - but actually capture leads,
+              segment audiences, qualify prospects, and drive conversions.
             </p>
             <p>
-              The truth is, I genuinely love doing this work. Building
-              something from a blank screen and watching it go live the same
-              day never gets old. That energy shows up in every project.
+              I genuinely love doing this work. Building something from a blank
+              screen and watching it go live the same day never gets old. That
+              energy shows up in every project.
             </p>
             <p>
-              So why should you pay me instead of learning it yourself? Because
-              you&apos;re busy running your business. And even if you learned the
-              tools, you&apos;d still need the decade of marketing and conversion
-              thinking that goes into every page I build.
+              So why pay me instead of figuring it out yourself? Because
+              you are busy running your business. And even if you learned the
+              tools, you would still need the decade of marketing and
+              conversion thinking that goes into every page I build.
             </p>
           </div>
         </div>
