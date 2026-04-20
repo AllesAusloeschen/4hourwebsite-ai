@@ -58,19 +58,22 @@ const differentiators = [
 const steps = [
   {
     step: "01",
-    title: "Quick Intake Call",
+    emoji: "\u{1F4DE}",
+    title: "Schedule a Call",
     description:
       "We scope the project, discuss strategy, and identify exactly what your site needs to accomplish.",
   },
   {
     step: "02",
-    title: "I Build It Live",
+    emoji: "\u{1F6E0}\uFE0F",
+    title: "I Build Your Site",
     description:
       "While you keep running your business, I build your entire site using AI-assisted development.",
   },
   {
     step: "03",
-    title: "Site Goes Live",
+    emoji: "\u{1F680}",
+    title: "You Go Live",
     description:
       "Your production-ready website launches the same day, fully deployed and ready for traffic.",
   },
@@ -255,18 +258,35 @@ export default function Home() {
             title="Three steps. One day."
             description="No drawn-out timelines. No scope creep. Just results."
           />
-          <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
-            {steps.map((item) => (
-              <div key={item.step} className="text-center">
-                <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl gradient-bg text-white text-xl font-bold mb-5">
-                  {item.step}
+          <div className="mt-16 flex flex-col md:flex-row items-center md:items-start justify-center gap-4 md:gap-0">
+            {steps.map((item, i) => (
+              <div key={item.step} className="flex flex-col md:flex-row items-center">
+                <div className="text-center max-w-xs">
+                  <div className="relative inline-flex items-center justify-center w-20 h-20 rounded-full gradient-bg text-white mb-5 shadow-lg shadow-primary/25">
+                    <span className="text-2xl font-bold">{item.step}</span>
+                    <span className="absolute -bottom-1 -right-1 text-2xl">{item.emoji}</span>
+                  </div>
+                  <h3 className="text-lg font-semibold text-foreground mb-2">
+                    {item.title}
+                  </h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    {item.description}
+                  </p>
                 </div>
-                <h3 className="text-lg font-semibold text-foreground mb-2">
-                  {item.title}
-                </h3>
-                <p className="text-sm text-muted-foreground leading-relaxed max-w-xs mx-auto">
-                  {item.description}
-                </p>
+                {i < steps.length - 1 && (
+                  <div className="hidden md:flex items-center px-6 pt-4">
+                    <svg className="w-10 h-10 text-primary/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                  </div>
+                )}
+                {i < steps.length - 1 && (
+                  <div className="md:hidden flex items-center py-3">
+                    <svg className="w-8 h-8 text-primary/40 rotate-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                  </div>
+                )}
               </div>
             ))}
           </div>
