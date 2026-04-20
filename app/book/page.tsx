@@ -77,25 +77,18 @@ export default function BookPage() {
                 Schedule a call
               </h2>
               <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
-                Book a 15-minute intake call to discuss your project scope,
+                Book a 30-minute intake call to discuss your project scope,
                 goals, and strategy. This is where I learn about your business
                 so I can build something that actually works.
               </p>
-              <div className="aspect-[4/3] rounded-2xl bg-muted border border-border flex items-center justify-center">
-                <div className="text-center p-8">
-                  <div className="w-14 h-14 rounded-2xl gradient-bg flex items-center justify-center text-white mx-auto mb-4">
-                    <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                  </div>
-                  <p className="text-sm font-medium text-foreground mb-1">
-                    Calendly embed coming soon
-                  </p>
-                  <p className="text-xs text-muted-foreground">
-                    Scheduling integration will appear here
-                  </p>
-                </div>
-              </div>
+              <iframe
+                src="https://calendly.com/mathias-4hourwebsite/30min?hide_gdpr_banner=1"
+                width="100%"
+                height="700"
+                frameBorder="0"
+                title="Schedule an intake call"
+                className="rounded-2xl border border-border"
+              />
             </div>
 
             {/* Intake Form */}
