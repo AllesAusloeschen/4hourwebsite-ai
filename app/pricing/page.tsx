@@ -36,9 +36,9 @@ const faqs = [
       "No. Hosting on Vercel is free for most sites. You pay once for the build and that's it. The only ongoing costs would be third-party services you choose to use (like a custom domain, email marketing tool, etc.).",
   },
   {
-    question: "Can I update it myself after?",
+    question: "What if I need changes later?",
     answer:
-      "Yes! You can use Claude Code (the same AI tool I build with) to make updates yourself - no coding knowledge needed. You can also edit directly in GitHub and changes deploy automatically. Or if you'd rather not touch it, I offer ongoing update services at reasonable hourly rates.",
+      "Two options. Send a request anytime - $95 per change, most done the same day. Or $99/month for unlimited small updates (cancel anytime, no contracts). No tickets, no portals, no hourly billing. Just send what you need changed and it's handled. You can also update the site yourself through GitHub if you want - you own the code.",
   },
   {
     question: "Can you integrate my existing tools?",
@@ -116,6 +116,58 @@ export default function PricingPage() {
               ]}
             />
           </div>
+        </div>
+      </section>
+
+      {/* After Launch */}
+      <section className="py-20 sm:py-24 bg-muted">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">
+              After Launch
+            </h2>
+            <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
+              Your site is yours. No monthly fees for hosting. No subscriptions. No lock-in.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-white rounded-2xl border border-border p-8">
+              <div className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">
+                Pay as you go
+              </div>
+              <div className="mt-3 flex items-baseline gap-2">
+                <span className="text-4xl font-bold tracking-tight">$95</span>
+                <span className="text-muted-foreground">/ change</span>
+              </div>
+              <p className="mt-4 text-base text-muted-foreground leading-relaxed">
+                Text changes, photo swaps, section tweaks. Send a request, most done the same day.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl border-2 border-foreground p-8 relative">
+              <div className="absolute -top-3 left-8 bg-foreground text-white text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wide">
+                Most pick this
+              </div>
+              <div className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">
+                Unlimited
+              </div>
+              <div className="mt-3 flex items-baseline gap-2">
+                <span className="text-4xl font-bold tracking-tight">$99</span>
+                <span className="text-muted-foreground">/ month</span>
+              </div>
+              <p className="mt-4 text-base text-muted-foreground leading-relaxed">
+                Unlimited small updates. One request at a time. Cancel anytime. No contracts.
+              </p>
+            </div>
+          </div>
+
+          <p className="mt-10 text-center text-sm text-muted-foreground max-w-2xl mx-auto">
+            No tickets. No portals. No hourly billing. Just send what you need changed and it&apos;s handled.
+          </p>
+          <p className="mt-3 text-center text-xs text-muted-foreground max-w-2xl mx-auto">
+            Small updates = text changes, photo swaps, section tweaks. New pages, new funnels, or new integrations quoted separately.
+          </p>
         </div>
       </section>
 

@@ -99,12 +99,25 @@ Energetic, direct, honest, results-oriented. Confident and approachable. No gate
 - Final price quoted based on scope
 - Typical delivery: 1–3 days
 
+#### After Launch (on-demand updates, no agency language)
+
+Two options, sitting between build tiers and FAQ. Avoid "maintenance," "care plan," "retainer." Avoid tiers.
+
+- **$95 per change** — pay-as-you-go. Most done same day.
+- **$99/month unlimited small updates** — cancel anytime, no contracts. Positioned as "Most pick this."
+
+Copy angle: "Your site is yours. No monthly fees for hosting. No subscriptions. No lock-in. Need a change? Send it over." One-request-at-a-time guardrail on unlimited tier to prevent abuse. "Small updates" = text, photos, new page, tweaks. Larger work (new funnels, redesigns, integrations) quoted separately.
+
+#### Future offer: Fix My AI Site — $299
+
+For people who vibe-coded themselves into a broken/amateur-looking site. Positioning: "Bring your half-built AI site, we clean it up and launch it properly. Same-day." As vibe coding grows this becomes a lead engine, not a threat.
+
 #### FAQ Section
 - **What if I don't like it?** (revision policy)
 - **What platform is it built on?** Next.js, hosted on Vercel.
 - **Who owns the code?** You do — full GitHub access.
 - **Do I pay monthly fees?** No, hosting is free on Vercel.
-- **Can I update it myself after?** Yes, or hire me for updates.
+- **What if I need changes later?** $95/change or $99/mo unlimited. No tickets, no portals, no hourly billing.
 - **Can you integrate my existing tools?** Yes — Stripe, PayPal, MailerLite, Mailchimp, ConvertKit, HubSpot, Calendly, Airtable, Supabase, and most modern APIs.
 
 ---

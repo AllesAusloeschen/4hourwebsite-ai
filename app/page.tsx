@@ -421,6 +421,21 @@ export default function Home() {
               </svg>
             </Link>
           </div>
+
+          {/* After Launch */}
+          <div className="mt-16 max-w-3xl mx-auto">
+            <div className="bg-white rounded-2xl border border-border p-8 sm:p-10 text-center">
+              <div className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+                After your site is live
+              </div>
+              <p className="mt-3 text-lg sm:text-xl text-foreground leading-relaxed">
+                Optional: <span className="font-semibold">$95 per change</span>, or <span className="font-semibold">$99/mo unlimited small updates</span>.
+              </p>
+              <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
+                Most done same day. Cancel anytime. No contracts, no lock-in. Your site has no required monthly fees.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 

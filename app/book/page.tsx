@@ -64,6 +64,9 @@ export default function BookPage() {
               Start with a quick intake call or fill out the form below.
               I&apos;ll get back to you within 24 hours with a plan.
             </p>
+            <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
+              After launch: you own everything. Optional <span className="font-semibold">$95/change</span> or <span className="font-semibold">$99/mo unlimited</span> if you want updates handled for you.
+            </p>
           </div>
         </div>
       </section>
