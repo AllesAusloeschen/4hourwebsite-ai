@@ -5,7 +5,7 @@ import SectionHeading from "../components/SectionHeading";
 export const metadata: Metadata = {
   title: "Portfolio",
   description:
-    "See real websites built by 4HourWebsite.ai. Case studies featuring fiorellard.com and Cheery Charms  - custom sites with real conversion strategy.",
+    "See real websites built by 4HourWebsite.ai. Case studies across healthcare, ecommerce, and local service businesses  - custom sites with real conversion strategy.",
   openGraph: {
     title: "Portfolio | 4HourWebsite.ai",
     description:
@@ -35,8 +35,8 @@ const caseStudies = [
   {
     title: "Cheery Charms",
     category: "Ecommerce",
-    url: "#",
-    screenshot: "",
+    url: "https://cheery-charms.vercel.app",
+    screenshot: "/portfolio-cheery-charms.png",
     challenge:
       "Cheery Charms needed an ecommerce site for kids' bracelets that was fun, colorful, and  - most importantly  - optimized for checkout conversion. The target audience is parents buying gifts, so the purchase flow needed to be fast and frictionless.",
     solution:
@@ -48,6 +48,44 @@ const caseStudies = [
       "Kid-friendly but conversion-focused design",
       "Mobile-first shopping experience",
       "Fast page loads for lower bounce rates",
+    ],
+  },
+  {
+    title: "Clearview Dermatology",
+    category: "Sample Build / Medical Practice",
+    url: "https://spec-derm.vercel.app",
+    screenshot: "/portfolio-clearview-derm.png",
+    isDemo: true,
+    challenge:
+      "A sample build showing what an independent dermatology practice can get. Demonstrates how to differentiate from hospital-system clinics for local search, convert visitors into bookings, and clearly separate medical and cosmetic service lines without feeling corporate. Not a real client  - built as a preview for practices considering a custom site.",
+    solution:
+      "Clean, calm authority design built around a sage palette that signals medical trust without feeling sterile. Separate service pages for medical vs cosmetic dermatology, patient testimonial layout, a frictionless contact/booking flow, and local SEO structure ready to target a specific metro market.",
+    highlights: [
+      "Service architecture split by care type",
+      "Booking-focused CTA structure",
+      "Patient testimonial layout",
+      "Local SEO-ready structure",
+      "Mobile-first responsive layout",
+      "Fast page loads on Vercel",
+    ],
+  },
+  {
+    title: "Summit Physical Therapy",
+    category: "Sample Build / Local Service Business",
+    url: "https://spec-physio.vercel.app",
+    screenshot: "/portfolio-summit-physio.png",
+    isDemo: true,
+    challenge:
+      "A sample build showing what an independent physical therapy practice can get. Demonstrates how to compete with larger chain clinics for online visibility, communicate clinical credibility, and make booking the obvious next step on every page. Not a real client  - built as a preview for practices considering a custom site.",
+    solution:
+      "Bold navy-and-orange design that stands out from generic healthcare templates. Evidence-based messaging positioned against the chain-clinic norm, dedicated service pages for each treatment area, and a hero-level booking CTA that repeats throughout the site so no page is a dead end.",
+    highlights: [
+      "Conversion-driven hero and page structure",
+      "Dedicated service pages per treatment area",
+      "Clinical credibility signals throughout",
+      "Local SEO-ready structure",
+      "Booking CTA repeated on every page",
+      "Mobile-responsive across all breakpoints",
     ],
   },
 ];
@@ -66,6 +104,10 @@ export default function PortfolioPage() {
             <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
               Every project starts with strategy. These aren&apos;t just
               pretty pages  - they&apos;re business tools designed to convert.
+            </p>
+            <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
+              A mix of real client work and sample builds. Demo builds are labeled.
+              They show what&apos;s possible for a given industry  -  not fabricated engagements.
             </p>
           </div>
         </div>
@@ -96,9 +138,16 @@ export default function PortfolioPage() {
 
               {/* Details */}
               <div className={`${index % 2 === 1 ? "lg:order-1" : ""}`}>
-                <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-2">
-                  {study.category}
-                </p>
+                <div className="flex flex-wrap items-center gap-2 mb-2">
+                  <p className="text-xs font-semibold uppercase tracking-widest text-primary">
+                    {study.category}
+                  </p>
+                  {study.isDemo && (
+                    <span className="text-[10px] font-bold uppercase tracking-wider bg-amber-100 text-amber-900 px-2 py-0.5 rounded">
+                      Demo build  -  not a real client
+                    </span>
+                  )}
+                </div>
                 <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-4">
                   {study.title}
                 </h2>
