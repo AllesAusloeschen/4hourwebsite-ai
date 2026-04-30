@@ -6,11 +6,11 @@ import PricingCard from "../components/PricingCard";
 export const metadata: Metadata = {
   title: "Pricing",
   description:
-    "Simple, transparent pricing for custom-built websites. Starting at $499 with no monthly fees. Starter, Premium, and Advanced tiers available.",
+    "Simple, transparent pricing for custom-built websites. Starting at $499, one-time build cost, no required subscriptions. Starter, Premium, and Advanced tiers available.",
   openGraph: {
     title: "Pricing | 4HourWebsite.ai",
     description:
-      "Custom websites starting at $499. No monthly fees. Delivered in 4 hours.",
+      "Custom websites starting at $499. One-time build, no required subscriptions. Delivered in 4 hours.",
   },
 };
 
@@ -58,7 +58,7 @@ export default function PricingPage() {
               Simple, <span className="gradient-text">transparent</span> pricing
             </h1>
             <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-              One price. One delivery. No monthly fees. No surprises.
+              One price. One delivery. No required subscriptions. No surprises.
               You own everything.
             </p>
           </div>
@@ -127,7 +127,7 @@ export default function PricingPage() {
               After Launch
             </h2>
             <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
-              Your site is yours. No monthly fees for hosting. No subscriptions. No lock-in.
+              Your site is yours. The build is one-time, hosting is free, and any changes after launch are optional and pay-as-you-go.
             </p>
           </div>
 

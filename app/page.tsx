@@ -103,11 +103,11 @@ export default function Home() {
             </h1>
             <p className="mt-6 text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               I build you a custom, modern website starting at $499. No
-              templates. No monthly fees. No wrestling with Wix or Squarespace.
-              You own everything. And unlike generic page builders, every site
-              I build is a business tool - designed to capture leads and drive
-              results. If you are wondering what that looks like - this site
-              was built by me.
+              templates. No required subscriptions. No wrestling with Wix or
+              Squarespace. You own everything. And unlike generic page
+              builders, every site I build is a business tool - designed to
+              capture leads and drive results. If you are wondering what that
+              looks like - this site was built by me.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -124,7 +124,7 @@ export default function Home() {
               </Link>
             </div>
             <p className="mt-6 text-sm text-muted-foreground">
-              Starting at $499 &middot; No monthly fees &middot; No subscriptions &middot; You own the code
+              Starting at $499 &middot; One-time build, no required subscriptions &middot; You own the code
             </p>
           </div>
         </div>
@@ -367,7 +367,7 @@ export default function Home() {
           <SectionHeading
             eyebrow="Pricing"
             title="Simple, transparent pricing"
-            description="No hidden fees. No monthly charges. One price, one delivery."
+            description="No hidden fees. One-time build cost. After-launch changes are optional and pay-as-you-go."
           />
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
             <PricingCard
@@ -495,7 +495,7 @@ export default function Home() {
             </h2>
             <p className="mt-4 text-lg text-white/80 max-w-xl mx-auto">
               Book a quick intake call and your site could be live today.
-              No contracts, no monthly fees.
+              No contracts, no required monthly fees.
             </p>
             <div className="mt-8">
               <Link
