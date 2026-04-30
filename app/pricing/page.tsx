@@ -41,6 +41,11 @@ const faqs = [
       "Two options. Send a request anytime - $95 per change, most done the same day. Or $99/month for unlimited small updates (cancel anytime, no contracts). No tickets, no portals, no hourly billing. Just send what you need changed and it's handled. You can also update the site yourself through GitHub if you want - you own the code.",
   },
   {
+    question: "Will the site need updates over time?",
+    answer:
+      "Less than you'd think. Sites built on Next.js + Vercel are unusually low-maintenance - most run 1-2 years untouched. When updates are eventually needed (security patches in dependencies, breaking changes in third-party APIs like Stripe or MailerLite, or major framework upgrades every 12-18 months), I handle them as part of After Launch ($99/mo unlimited covers all of this; $95/change clients can request as needed). If you want to handle them yourself, the GitHub repo is yours and the deploy pipeline runs automatically - just merge and Vercel ships. The site won't silently rot - I monitor my own builds and flag client sites if a Vercel deploy starts failing.",
+  },
+  {
     question: "Can you integrate my existing tools?",
     answer:
       "Absolutely. I regularly integrate with Stripe, PayPal, MailerLite, Mailchimp, ConvertKit, HubSpot, Calendly, Airtable, Supabase, Google Analytics, and most modern APIs. If it has an API, I can connect it.",
