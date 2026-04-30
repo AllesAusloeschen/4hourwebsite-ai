@@ -302,7 +302,7 @@ export default function Home() {
             title="Recent builds"
             description="Real sites, built for real businesses."
           />
-          <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
             {[
               {
                 title: "fiorellard.com",
@@ -310,13 +310,6 @@ export default function Home() {
                 screenshot: "/portfolio-fiorellard.png",
                 description:
                   "Registered Dietitian authority site with media features, doctor referral page, and integrated interactive tools.",
-              },
-              {
-                title: "Cheery Charms",
-                category: "Ecommerce",
-                screenshot: "",
-                description:
-                  "Kids bracelet ecommerce site with Stripe checkout integration and optimized conversion flow.",
               },
             ].map((project) => (
               <div

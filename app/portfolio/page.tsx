@@ -33,24 +33,6 @@ const caseStudies = [
     ],
   },
   {
-    title: "Cheery Charms",
-    category: "Ecommerce",
-    url: "https://cheery-charms.vercel.app",
-    screenshot: "/portfolio-cheery-charms.png",
-    challenge:
-      "Cheery Charms needed an ecommerce site for kids' bracelets that was fun, colorful, and  - most importantly  - optimized for checkout conversion. The target audience is parents buying gifts, so the purchase flow needed to be fast and frictionless.",
-    solution:
-      "Built a clean ecommerce experience with Stripe checkout integration, product galleries with quick-add functionality, and a streamlined cart-to-checkout flow. The design balances a playful, kid-friendly aesthetic with serious conversion optimization.",
-    highlights: [
-      "Stripe checkout integration",
-      "Optimized product pages",
-      "Streamlined cart-to-checkout flow",
-      "Kid-friendly but conversion-focused design",
-      "Mobile-first shopping experience",
-      "Fast page loads for lower bounce rates",
-    ],
-  },
-  {
     title: "Clearview Dermatology",
     category: "Sample Build / Medical Practice",
     url: "https://spec-derm.vercel.app",
