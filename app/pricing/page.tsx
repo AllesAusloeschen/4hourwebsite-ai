@@ -157,6 +157,52 @@ export default function PricingPage() {
           <p className="mt-3 text-center text-xs text-muted-foreground max-w-2xl mx-auto">
             Small updates = text changes, photo swaps, section tweaks. New pages, new funnels, or new integrations quoted separately.
           </p>
+
+          {/* What's not included */}
+          <div className="mt-20 max-w-3xl mx-auto">
+            <div className="bg-white rounded-2xl border border-border p-8 sm:p-10">
+              <h3 className="text-xl sm:text-2xl font-bold text-foreground mb-3">
+                What&apos;s not included
+              </h3>
+              <p className="text-sm text-muted-foreground leading-relaxed mb-5">
+                Honest expectations. These aren&apos;t in the build price - some you may not need, some you&apos;ll source separately. I&apos;ll flag any of these on the intake call if your project requires them.
+              </p>
+              <ul className="space-y-2 text-sm text-muted-foreground leading-relaxed">
+                <li className="flex gap-2">
+                  <span className="text-foreground">·</span>
+                  <span><strong className="text-foreground">Logo design</strong> - bring your own, or I can refer a designer.</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-foreground">·</span>
+                  <span><strong className="text-foreground">Copywriting</strong> - I&apos;ll polish what you give me. Full from-scratch copywriting is a separate scope.</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-foreground">·</span>
+                  <span><strong className="text-foreground">Photography or stock images</strong> - bring your own, or I&apos;ll use free Unsplash / royalty-free placeholders you can replace later.</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-foreground">·</span>
+                  <span><strong className="text-foreground">Custom domain</strong> - typically $10-15/year directly from Cloudflare or your registrar of choice.</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-foreground">·</span>
+                  <span><strong className="text-foreground">Third-party tool fees</strong> - if your build uses Stripe, MailerLite, Calendly, etc., those go directly to those providers (most have generous free tiers).</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-foreground">·</span>
+                  <span><strong className="text-foreground">Ongoing SEO content / blog writing</strong> - structural SEO is included; recurring content production is not.</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-foreground">·</span>
+                  <span><strong className="text-foreground">Paid ad management</strong> - I build the funnel; running and optimizing Meta or Google ads is a different job.</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-foreground">·</span>
+                  <span><strong className="text-foreground">Business formation, trademark, legal</strong> - the site itself doesn&apos;t require these to launch, but if you need them I&apos;ll point you to who does.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 

@@ -180,6 +180,31 @@ export default function Home() {
               </div>
             ))}
           </div>
+
+          {/* Recent client work callout */}
+          <div className="mt-16 max-w-4xl mx-auto">
+            <div className="bg-white rounded-2xl border border-border p-8 sm:p-10">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-2">
+                    Recent client work
+                  </p>
+                  <h3 className="text-xl sm:text-2xl font-bold text-foreground">
+                    fiorellard.com
+                  </h3>
+                  <p className="mt-2 text-sm sm:text-base text-muted-foreground leading-relaxed">
+                    Registered Dietitian authority site. Media features, doctor referral funnel, integrated interactive tools, GA4 + GTM wired in from launch, and a quiz funnel that segments subscribers into 4 personalized email sequences.
+                  </p>
+                </div>
+                <Link
+                  href="/portfolio"
+                  className="inline-flex items-center justify-center px-5 py-2.5 rounded-full text-sm font-semibold border border-border hover:bg-muted transition-colors shrink-0"
+                >
+                  See the case study →
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
