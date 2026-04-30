@@ -40,6 +40,7 @@ const skills = [
   "Quiz Design",
   "Conversion Optimization",
   "Customer Journey Mapping",
+  "Analytics & Attribution",
   "CX Operations",
   "Web App Development",
   "Next.js / React",
