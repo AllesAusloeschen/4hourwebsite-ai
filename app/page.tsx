@@ -432,10 +432,7 @@ export default function Home() {
                 After your site is live
               </div>
               <p className="mt-3 text-lg sm:text-xl text-foreground leading-relaxed">
-                Optional: <span className="font-semibold">$95 per change</span>, or <span className="font-semibold">$99/mo unlimited small updates</span>.
-              </p>
-              <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-                Most done same day. Cancel anytime. No contracts, no lock-in. Your site has no required monthly fees.
+                Optional: <span className="font-semibold">$99/month unlimited small updates</span>. Most done same day. Cancel anytime, no contracts, no lock-in. Need ongoing changes? Subscribe. Done? Cancel.
               </p>
             </div>
           </div>

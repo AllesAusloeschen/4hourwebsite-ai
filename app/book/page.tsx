@@ -65,7 +65,7 @@ export default function BookPage() {
               I&apos;ll get back to you within 24 hours with a plan.
             </p>
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
-              After launch: you own everything. Optional <span className="font-semibold">$95/change</span> or <span className="font-semibold">$99/mo unlimited</span> if you want updates handled for you.
+              After launch: you own everything. Optional <span className="font-semibold">$99/month unlimited small updates</span> if you want changes handled for you. Cancel anytime.
             </p>
           </div>
         </div>

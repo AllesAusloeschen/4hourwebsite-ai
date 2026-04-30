@@ -38,12 +38,12 @@ const faqs = [
   {
     question: "What if I need changes later?",
     answer:
-      "Two options. Send a request anytime - $95 per change, most done the same day. Or $99/month for unlimited small updates (cancel anytime, no contracts). No tickets, no portals, no hourly billing. Just send what you need changed and it's handled. You can also update the site yourself through GitHub if you want - you own the code.",
+      "Optional: $99/month unlimited small updates. Most done same day. Cancel anytime, no contracts, no lock-in. Need ongoing changes? Subscribe. Done? Cancel. No tickets, no portals, no hourly billing. Just send what you need changed and it's handled. You can also update the site yourself through GitHub if you want - you own the code.",
   },
   {
     question: "Will the site need updates over time?",
     answer:
-      "Less than you'd think. Sites built on Next.js + Vercel are unusually low-maintenance - most run 1-2 years untouched. When updates are eventually needed (security patches in dependencies, breaking changes in third-party APIs like Stripe or MailerLite, or major framework upgrades every 12-18 months), I handle them as part of After Launch ($99/mo unlimited covers all of this; $95/change clients can request as needed). If you want to handle them yourself, the GitHub repo is yours and the deploy pipeline runs automatically - just merge and Vercel ships. The site won't silently rot - I monitor my own builds and flag client sites if a Vercel deploy starts failing.",
+      "Less than you'd think. Sites built on Next.js + Vercel are unusually low-maintenance - most run 1-2 years untouched. When updates are eventually needed (security patches in dependencies, breaking changes in third-party APIs like Stripe or MailerLite, or major framework upgrades every 12-18 months), I handle them as part of the $99/month After Launch subscription. If you want to handle them yourself, the GitHub repo is yours and the deploy pipeline runs automatically - just merge and Vercel ships. The site won't silently rot - I monitor my own builds and flag client sites if a Vercel deploy starts failing.",
   },
   {
     question: "Can you integrate my existing tools?",
@@ -136,24 +136,8 @@ export default function PricingPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-white rounded-2xl border border-border p-8">
-              <div className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">
-                Pay as you go
-              </div>
-              <div className="mt-3 flex items-baseline gap-2">
-                <span className="text-4xl font-bold tracking-tight">$95</span>
-                <span className="text-muted-foreground">/ change</span>
-              </div>
-              <p className="mt-4 text-base text-muted-foreground leading-relaxed">
-                Text changes, photo swaps, section tweaks. Send a request, most done the same day.
-              </p>
-            </div>
-
-            <div className="bg-white rounded-2xl border-2 border-foreground p-8 relative">
-              <div className="absolute -top-3 left-8 bg-foreground text-white text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wide">
-                Most pick this
-              </div>
+          <div className="max-w-2xl mx-auto">
+            <div className="bg-white rounded-2xl border-2 border-foreground p-8 sm:p-10 relative">
               <div className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">
                 Unlimited
               </div>
@@ -161,8 +145,8 @@ export default function PricingPage() {
                 <span className="text-4xl font-bold tracking-tight">$99</span>
                 <span className="text-muted-foreground">/ month</span>
               </div>
-              <p className="mt-4 text-base text-muted-foreground leading-relaxed">
-                Unlimited small updates. One request at a time. Cancel anytime. No contracts.
+              <p className="mt-4 text-base text-foreground leading-relaxed">
+                Optional: <span className="font-semibold">$99/month unlimited small updates</span>. Most done same day. Cancel anytime, no contracts, no lock-in. Need ongoing changes? Subscribe. Done? Cancel.
               </p>
             </div>
           </div>
